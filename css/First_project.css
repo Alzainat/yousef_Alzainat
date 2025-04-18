@@ -541,6 +541,18 @@ span{
     .contact form .input-box input{
         width: 100%;
     }
+    .home-img{
+        margin-right: 70px;
+    }
+    .services{
+        width: 500px;
+    }
+    .projects{
+        width: 500px;
+    }
+    .contact{
+        width: 500px;
+    }
 }
 
 @media (max-width:365px){
@@ -552,9 +564,19 @@ span{
     }
     .footer{
         flex-direction: column-reverse;
+        width: 400px;
     }
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+    .contact form {
+        width: 330px;
+    }
+    .services{
+        width: 400px;
+    }
+    .skills{
+        width: 400px ;
     }
 }
